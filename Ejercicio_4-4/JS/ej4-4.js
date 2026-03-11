@@ -19,6 +19,7 @@ function Calculo(operacion) {
                 result = num1 / num2;
                 break;
         }
-        document.getElementById("output").innerHTML = result;
+        document.getElementById("output").innerHTML = result.toFixed(2);
     }
+
 
